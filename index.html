@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Title</title>
+    <!-- Favicon Link -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row offset-sm-1">
+        <!-- Header part -->
+        <h1>Weather Application</h1>
+        <section class="main col-md-7 col-sm-10">
+          <!-- input section -->
+          <section class="inputs">
+            <input
+              type="text"
+              placeholder="Enter any City Name..."
+              id="cityinput"
+            />
+            <input type="submit" value="Submit" id="add" />
+          </section>
+
+          <!-- Display section -->
+          <section class="display">
+            <div class="wrapper">
+              <h2 id="cityoutput"></h2>
+              <p id="description"></p>
+              <p id="temp"></p>
+              <p id="wind"></p>
+            </div>
+          </section>
+        </section>
+      </div>
+    </div>
+    <!-- custom script -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

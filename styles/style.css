@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --------------------background */
+.container {
+  background-image: linear-gradient(skyblue, white);
+  background-size: cover;
+  height: auto;
+}
+
+.row {
+  padding-top: 5.5rem;
+  padding-bottom: 5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(27, 41, 119);
+  text-shadow: 0 0 3px #111111, 0 0 5px #0000fd;
+  text-align: center;
+}
+
+/* -----------------------------header */
+.header {
+  text-align: center;
+  padding: 5rem;
+}
+
+.header h1 {
+  font-weight: 500;
+  font-size: 34px;
+  font-family: 'Indie Flower', cursive;
+  color: #e4eff7;
+}
+
+.header p {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 1.5 rem;
+  color: #e4eff7;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: #d0e5f5;
+}
+
+
+
+/* --------------------------------input section */
+.cityinput {
+  padding-left: 100rem;
+}
+
+
+
+.inputs {
+  padding: 6rem 0 2rem 0;
+  gap: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.inputs input[type="text"] {
+  height: 3.5rem;
+  width: 30rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 1px #16a864;
+  color: #010101;
+  border-radius: 2px;
+  margin-right: 4px;
+}
+
+.inputs input[type="submit"] {
+  height: 3.5rem;
+  width: 6.5rem;
+  background: #16a864;
+  font-weight: bold;
+  color: ghostwhite;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 2px;
+}
+
+/* -------------------------------display */
+
+.wrapper {
+  margin: 0 9rem;
+  width: 50%;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+
+.wrapper h2 {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.wrapper p {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.7rem;
+}
