@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
 /* --------------------background */
 .container {
-  background-image: linear-gradient(skyblue, white);
+  background-image: url(../assets/bg.jpeg);
+  background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
 }
 
 .row {
