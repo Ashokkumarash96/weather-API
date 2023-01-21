@@ -6,7 +6,7 @@ let descrip = document.querySelector("#description");
 let temp = document.querySelector("#temp");
 let wind = document.querySelector("#wind");
 
-apik = "3045dd712ffe6e702e3245525ac7fa38";
+apid = "3045dd712ffe6e702e3245525ac7fa38";
 
 //kelvin to celsius
 function convertion(val) {
@@ -19,7 +19,7 @@ btn.addEventListener("click", function () {
     "https://api.openweathermap.org/data/2.5/weather?q=" +
       inputval.value +
       "&appid=" +
-      apik
+      apid
   )
     .then((res) => res.json())
     .then((data) => {
