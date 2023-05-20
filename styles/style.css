@@ -73,6 +73,7 @@ a:active {
 }
 
 .inputs input[type="text"] {
+  padding-left: 15px;
   height: 3.5rem;
   width: 30rem;
   font-weight: bold;
